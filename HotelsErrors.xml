@@ -18,7 +18,7 @@
 
 	<Hotel Rating="4.5">
 		
-		<Name>Hampton Inn & Suites Phoenix Glendale-Westgate</Name>
+		<Name>Hampton Inn &amp; Suites Phoenix Glendale-Westgate</Name>
 		<Phone>623-271-7771</Phone>
 
 		<Address Nearest_Airport="Glendale Regional Airport">
@@ -127,7 +127,7 @@
 
 	<Hotel Rating="4.7">
 
-		<Name>Renaissance Phoenix Glendale Hotel & Conference Center</Name>
+		<Name>Renaissance Phoenix Glendale Hotel &amp; Conference Center</Name>
 		<Phone>623-937-3700</Phone>
 
 		<Address Nearest_Airport="Glendale Regional Airport">
@@ -170,5 +170,6 @@
 		</Address>
 
 	</Hotel>	
+
 
 </Hotels>

@@ -76,7 +76,7 @@
 		</Address>
 
 	</Hotel>
-	<!--Address has no closing tag-->
+	
 	<Hotel Rating="4.5">
 
 		<Name>Tru by Hilton Goodyear Phoenix West</Name>
@@ -89,7 +89,7 @@
 			<City> Goodyear</City>
 			<State>Arizona</State>
 			<Zip>85338</Zip>
-	
+		</Address>
 
 	</Hotel>
 	<!--Two names are provided for one hotel-->
@@ -156,6 +156,7 @@
 
 	</Hotel>
 
+	<!--Address has no closing tag-->
 	<Hotel Rating="4.3">
 
 		<Name>Homewood Suites by Hilton Phoenix-Avondale</Name>
@@ -167,9 +168,10 @@
 			<City>Avondale</City>
 			<State>Arizona</State>
 			<Zip>85323</Zip>
-		</Address>
+		
 
 	</Hotel>	
 
 
 </Hotels>
+

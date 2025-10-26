@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			targetNamespace="https://curbati.github.io/xmlStuff/Hotels.xsd"
+			xmlns="https://curbati.github.io/xmlStuff/Hotels.xsd"
+			elementFormDefault="qualified">
 
 	<xsd:element name="Hotels">
 		<xsd:complexType>
@@ -38,5 +41,6 @@
 		</xsd:complexType>
 		
 	</xsd:element>
+
 
 </xsd:schema>

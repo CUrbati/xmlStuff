@@ -1,28 +1,30 @@
 <?xml version="1.0"?>
-<Hotel xmlns="https://curbati.github.io/xmlStuff/Hotels.xsd"
+<Hotels xmlns="https://curbati.github.io/xmlStuff/Hotels.xsd"
 		xmlns:bs="https://curbati.github.io/xmlStuff/Hotels.xsd"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="https://curbati.github.io/xmlStuff/Hotels.xsd https://curbati.github.io/xmlStuff/Hotels.xsd">
-	
+
+	<!--Required attribute missing-->
 	<Hotel Rating="4.0">
-		
+
 		<Name>Hilton Garden Inn Phoenix/Avondale</Name>
 		<Phone>623-882-3351</Phone>
-		
-		<Address>
+
+		<Address Nearest_Airport="Phoenix Goodyear Airport">
 			<Number>11460</Number>
 			<Street>West Hilton Way</Street>
 			<City>Avondale</City>
 			<State>Arizona</State>
 			<Zip>85323</Zip>
 		</Address>
-		
+
 	</Hotel>
 
+	<!--Phone missing-->
 	<Hotel Rating="4.5">
-		
+
 		<Name>Hampton Inn &amp; Suites Phoenix Glendale-Westgate</Name>
-		<Phone>623-271-7771</Phone>
+		
 
 		<Address Nearest_Airport="Glendale Regional Airport">
 			<Number>6630</Number>
@@ -34,10 +36,11 @@
 
 	</Hotel>
 
-	<!--Required attribute missing-->
+	<!--Two Names Provided-->
 	<Hotel>
 
 		<Name>The Wigwam</Name>
+		<Name>Wigwam</Name>
 		<Phone>866-976-6894</Phone>
 
 		<Address Nearest_Airport="Glendale Regional Airport">
@@ -55,7 +58,7 @@
 		<Name>Hilton Phoenix Glendale Westgate</Name>
 		<Phone>623-250-3551</Phone>
 
-		<Address>
+		<Address Nearest_Airport="Glendale Regional Airport">
 			<Number>6610</Number>
 			<Street>N. 95th Ave</Street>
 			<City> Glendale</City>
@@ -64,10 +67,11 @@
 		</Address>
 
 	</Hotel>
-	<!--Phone element missing-->
+
 	<Hotel Rating="4.5">
 
 		<Name>Holiday Inn Glendale</Name>
+		<Phone>888-465-4329</Phone>
 
 		<Address Nearest_Airport="Glendale Regional Airport">
 			<Number>6651</Number>
@@ -78,7 +82,7 @@
 		</Address>
 
 	</Hotel>
-	
+
 	<Hotel Rating="4.5">
 
 		<Name>Tru by Hilton Goodyear Phoenix West</Name>
@@ -94,15 +98,13 @@
 		</Address>
 
 	</Hotel>
-	<!--Two names are provided for one hotel-->
-	<Hotel Rating="4.5">
+	<Hotel>
 
 		<Name>Tru by Hilton Goodyear Phoenix West</Name>
-		<Name>Tru</Name>
 		<Phone>602-354-9530</Phone>
 		<Phone>888-446-667</Phone>
-		
-		<Address>
+
+		<Address Nearest_Airport="Phoenix Goodyear Airport">
 			<Number>1430</Number>
 			<Street>N. Bullard Ave</Street>
 			<City> Goodyear</City>
@@ -158,26 +160,19 @@
 
 	</Hotel>
 
-	<!--Address has no closing tag-->
-	<Hotel Rating="4.3">
+	<Hotel>
 
 		<Name>Homewood Suites by Hilton Phoenix-Avondale</Name>
 		<Phone>623-882-3315</Phone>
 
-		<Address>
+		<Address Nearest_Airport="Glendale Regional Airport">
 			<Number>11450</Number>
 			<Street>West Hilton Way</Street>
 			<City>Avondale</City>
 			<State>Arizona</State>
 			<Zip>85323</Zip>
-		</Address>		
+		</Address>
 
-	</Hotel>	
+	</Hotel>
 
-
-</Hotel>
-
-
-
-
-
+</Hotels>

@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
-<Hotel xmlns ="https://curbati.github.io/xmlStuff/Hotels.xsd">
-
+<Hotel xmlns="https://curbati.github.io/xmlStuff/Hotels.xsd"
+		xmlns:bs="https://curbati.github.io/xmlStuff/Hotels.xsd"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="https://curbati.github.io/xmlStuff/Hotels.xsd https://curbati.github.io/xmlStuff/Hotels.xsd">
+	
 	<Hotel Rating="4.0">
 		
 		<Name>Hilton Garden Inn Phoenix/Avondale</Name>
@@ -174,6 +177,7 @@
 
 
 </Hotel>
+
 
 
 

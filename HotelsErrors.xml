@@ -10,7 +10,7 @@
 		<Name>Hilton Garden Inn Phoenix/Avondale</Name>
 		<Phone>623-882-3351</Phone>
 
-		<Address Nearest_Airport="Phoenix Goodyear Airport">
+		<Address>
 			<Number>11460</Number>
 			<Street>West Hilton Way</Street>
 			<City>Avondale</City>
@@ -176,3 +176,4 @@
 	</Hotel>
 
 </Hotels>
+

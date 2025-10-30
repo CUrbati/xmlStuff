@@ -26,7 +26,7 @@
 		<Name>Hampton Inn &amp; Suites Phoenix Glendale-Westgate</Name>
 		
 
-		<Address Nearest_Airport="Glendale Regional Airport">
+		<Address NearestAirport="Glendale Regional Airport">
 			<Number>6630</Number>
 			<Street>N 95th Ave</Street>
 			<City>Glendale</City>
@@ -43,7 +43,7 @@
 		<Name>Wigwam</Name>
 		<Phone>866-976-6894</Phone>
 
-		<Address Nearest_Airport="Glendale Regional Airport">
+		<Address NearestAirport="Glendale Regional Airport">
 			<Number>300</Number>
 			<Street>E Wigwam Blvd</Street>
 			<City> Litchfield Park</City>
@@ -58,7 +58,7 @@
 		<Name>Hilton Phoenix Glendale Westgate</Name>
 		<Phone>623-250-3551</Phone>
 
-		<Address Nearest_Airport="Glendale Regional Airport">
+		<Address NearestAirport="Glendale Regional Airport">
 			<Number>6610</Number>
 			<Street>N. 95th Ave</Street>
 			<City> Glendale</City>
@@ -73,7 +73,7 @@
 		<Name>Holiday Inn Glendale</Name>
 		<Phone>888-465-4329</Phone>
 
-		<Address Nearest_Airport="Glendale Regional Airport">
+		<Address NearestAirport="Glendale Regional Airport">
 			<Number>6651</Number>
 			<Street>N. 99th Ave</Street>
 			<City> Glendale</City>
@@ -89,7 +89,7 @@
 		<Phone>602-354-9530</Phone>
 		<Phone>888-446-667</Phone>
 
-		<Address Nearest_Airport="Glendale Regional Airport">
+		<Address NearestAirport="Glendale Regional Airport">
 			<Number>1430</Number>
 			<Street>N. Bullard Ave</Street>
 			<City> Goodyear</City>
@@ -104,7 +104,7 @@
 		<Phone>602-354-9530</Phone>
 		<Phone>888-446-667</Phone>
 
-		<Address Nearest_Airport="Phoenix Goodyear Airport">
+		<Address NearestAirport="Phoenix Goodyear Airport">
 			<Number>1430</Number>
 			<Street>N. Bullard Ave</Street>
 			<City> Goodyear</City>
@@ -119,7 +119,7 @@
 		<Name>Fairfield</Name>
 		<Phone>623-936-6603</Phone>
 
-		<Address Nearest_Airport="Sky Harbor International Airport">
+		<Address NearestAirport="Sky Harbor International Airport">
 			<Number>9033</Number>
 			<Street>W McDowell Rd</Street>
 			<City> Tolleson</City>
@@ -134,7 +134,7 @@
 		<Name>Renaissance Phoenix Glendale Hotel &amp; Conference Center</Name>
 		<Phone>623-937-3700</Phone>
 
-		<Address Nearest_Airport="Glendale Regional Airport">
+		<Address NearestAirport="Glendale Regional Airport">
 			<Number>9495</Number>
 			<Street>W Entertainment Blvd</Street>
 			<City>Glendale</City>
@@ -150,7 +150,7 @@
 		<Phone>480-676-4944</Phone>
 		<Phone>888-446-667</Phone>
 
-		<Address Nearest_Airport="Sky Harbor International Airport">
+		<Address NearestAirport="Sky Harbor International Airport">
 			<Number>10275</Number>
 			<Street>W McDowell Road</Street>
 			<City>Avondale</City>
@@ -165,7 +165,7 @@
 		<Name>Homewood Suites by Hilton Phoenix-Avondale</Name>
 		<Phone>623-882-3315</Phone>
 
-		<Address Nearest_Airport="Glendale Regional Airport">
+		<Address NearestAirport="Glendale Regional Airport">
 			<Number>11450</Number>
 			<Street>West Hilton Way</Street>
 			<City>Avondale</City>
@@ -176,6 +176,7 @@
 	</Hotel>
 
 </Hotel>
+
 
 
 
